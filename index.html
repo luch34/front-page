@@ -3,57 +3,59 @@
 <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scipts.js"></script>
     <title> Book finder</title>
 </head>
 
 <body>
-    <ul>
-        <div class="book">
-            <li><a href="#Home">BOOK FINDER</a></li>
-        </div> <br></br>
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li><a href="#about">Visit us</a></li>
-        <li><a href="#contact">Info</a></li>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <a href="#news">News</a>
+        <div class="dropdown">
+            <button class="dropbtn">Dropdown 
+                    <i class="fa fa-caret-down"></i>
+                  </button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div>
+    </div>
 
-    </ul>
+
     <br></br>
     <div class="text">
         <h1><em>Description</em></h1>
-        <div class="work">
-            <p1>A meta search engine for finding books, textbooks, novels, rare and out of print books .<br> Search, find and buy online from hundreds of bookstores countrywide. The book search engine<br> is linked to thousands of online booksellers via a
-                small number of booklisting services.<br> Go straight to those sites that have your used book for sale by filling in the above form<br> and clicking on the ‘Search’ button.</p1>
-        </div> <br>
+    </div>
+    <div class="work">
+        <p1>A meta search engine for finding books, textbooks, novels, plays rare and all types of books .<br> Search, find and buy online from hundreds of bookstores countrywide. The book search engine<br> is linked to thousands of online booksellers via
+            a small number of booklisting services.<br> Go straight to those sites that have your used book for sale by filling in the above form<br> and clicking on the ‘Search’ button.</p1>
+    </div> <br>
 
-        <h2>Looking for a book? fill the form and click the botton to search</h2>
-        <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
+    <h2>Looking for a book? fill the form and click the botton to search</h2>
+    <form class="example" action="/action_page.php" style="margin:auto;max-width:300px">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
 
-
-
-
-
-
-
-
+    <br></br>
+    </div>
+    <div class="icons">
+        <!-- Add font awesome icons -->
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-google"></a>
+        <a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        <a href="#" class="fa fa-snapchat-ghost"></a>
+        <a href="#" class="fa fa-skype"></a>
+    </div>
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </html>
