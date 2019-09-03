@@ -34,3 +34,11 @@ li a {
 li a:hover {
     background-color: rgb(94, 64, 102);
 }
+
+.text {
+    color: red;
+}
+
+.work {
+    color: white;
+}
