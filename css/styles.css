@@ -5,3 +5,8 @@ body {
     font-weight: 10%;
     background: url('../images/library 2.jpg');
 }
+
+.book {
+    color: white;
+    font-size: 1cm;
+}
