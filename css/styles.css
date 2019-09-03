@@ -49,7 +49,8 @@ form.example input[type=text] {
     float: left;
     width: 80%;
     height: 1.5cm;
-    background: #f1f1f1;
+    background: transparent;
+    color: white;
 }
 
 form.example button {
@@ -151,10 +152,10 @@ p2 {
     align-content: center;
 }
 
-.good {
-    color: #bb0000;
-}
-
 h {
     color: red;
+}
+
+form {
+    background-color: transparent;
 }
