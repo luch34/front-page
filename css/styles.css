@@ -3,7 +3,11 @@ body {
     padding: 0;
     font-family: sans-serif;
     font-weight: 10%;
-    background: url('../images/library 2.jpg');
+    background: url('../images/library\ 1.jpg');
+}
+
+h {
+    color: red;
 }
 
 .navbar {
@@ -147,6 +151,10 @@ p2 {
     align-content: center;
 }
 
-.ics {
-    align-content: center;
+.good {
+    color: #bb0000;
+}
+
+h {
+    color: red;
 }
