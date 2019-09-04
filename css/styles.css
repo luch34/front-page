@@ -171,3 +171,9 @@ p2 {
     justify-content: center;
     font-size: 65%;
 }
+
+h2 {
+    color: red;
+    font-size: 88%;
+    font-family: 'Times New Roman', Times, serif;
+}
