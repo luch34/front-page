@@ -90,7 +90,6 @@ form.example::after {
 
 h2 {
     color: red;
-    font-size: 0.8cm;
     display: flex;
     justify-content: center;
 }
@@ -166,14 +165,23 @@ form {
     justify-content: center;
 }
 
-p2 {
+p3 {
     display: flex;
     justify-content: center;
     font-size: 65%;
 }
 
-h2 {
+h3 {
     color: red;
-    font-size: 88%;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    font-size: 0.6cm;
+}
+
+p2 {
+    display: flex;
+    justify-content: center;
+    font-size: 95%;
     font-family: 'Times New Roman', Times, serif;
 }
